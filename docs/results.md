@@ -63,3 +63,11 @@ The most compelling evidence that the model has learned something real — rathe
 Trade frequency varies **3.5x** across years (17 to 64 trades). This adaptive behaviour emerges entirely from the model's learned understanding of market conditions. There is no hard-coded regime detection, no volatility switch, no calendar logic. The model simply learns when its predictions are likely to be profitable and acts accordingly.
 
 This is the kind of result that complexity science would predict: simple rules, applied consistently to rich data, produce intelligent emergent behaviour. It's also the kind of result that's very difficult to achieve by overfitting — a model that has memorised the past doesn't adapt to novel market conditions.
+
+---
+
+## What Came Next
+
+This model established that a real edge exists. I then explored three strategy variants — changing the labeling geometry and execution rules — to understand the nature of that edge and push it further. The best variant achieves **SR 3.18 with DSR 1.000** over the same test period.
+
+[Read the strategy evolution](strategy-evolution.md){ .md-button }

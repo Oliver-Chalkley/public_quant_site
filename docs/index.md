@@ -37,3 +37,11 @@ I am now transitioning these validated models into live quantitative trading alg
 - **Long/short strategies** — extending beyond long-only once the live infrastructure is proven
 
 The research and statistical validation are done. The engineering is underway.
+
+---
+
+## Latest: Strategy Evolution
+
+Since the original model, I've explored three strategy variants — refining the labeling approach to increase trade frequency while maintaining per-trade edge. The result: **SR 3.18, DSR 1.000, +724% over 10 years.**
+
+[Read the full comparison](strategy-evolution.md){ .md-button }
