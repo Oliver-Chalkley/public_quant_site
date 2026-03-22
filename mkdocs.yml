@@ -28,7 +28,8 @@ nav:
   - Home: index.md
   - About: about.md
   - Approach: approach.md
-  - Results: results.md
+  - Portfolio: portfolio.md
+  - S&P 500 Model: results.md
   - Strategy Evolution: strategy-evolution.md
   - Reading List: references.md
 

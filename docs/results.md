@@ -1,4 +1,7 @@
-# Results
+# S&P 500 Model
+
+!!! info "Historical Context"
+    These results are from the initial S&P 500 model that established the core methodology. The system has since been [expanded to a multi-instrument portfolio](portfolio.md) spanning equities, bonds, and gold.
 
 All results below are from a **10-year out-of-sample backtest** on SPY (S&P 500 ETF), covering 2016 to 2026. The model was trained exclusively on data prior to 2016. No information from the test period was used during development, feature selection, or parameter tuning.
 

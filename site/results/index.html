@@ -11,21 +11,21 @@
       
       
       
-        <link rel="prev" href="../approach/">
+        <link rel="prev" href="../portfolio/">
       
       
-        <link rel="next" href="../references/">
+        <link rel="next" href="../strategy-evolution/">
       
       
         
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Results - Oliver Chalkley — Quantitative Strategies</title>
+        <title>S&P 500 Model - Oliver Chalkley — Quantitative Strategies</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#results" class="md-skip">
+        <a href="#sp-500-model" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Results
+              S&P 500 Model
             
           </span>
         </div>
@@ -314,6 +314,33 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../portfolio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portfolio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -333,7 +360,7 @@
   <span class="md-ellipsis">
     
   
-    Results
+    S&P 500 Model
   
 
     
@@ -351,7 +378,7 @@
   <span class="md-ellipsis">
     
   
-    Results
+    S&P 500 Model
   
 
     
@@ -420,10 +447,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#what-came-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Came Next
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../strategy-evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Strategy Evolution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -472,7 +537,11 @@
 
 
 
-<h1 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h1>
+<h1 id="sp-500-model">S&amp;P 500 Model<a class="headerlink" href="#sp-500-model" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Historical Context</p>
+<p>These results are from the initial S&amp;P 500 model that established the core methodology. The system has since been <a href="../portfolio/">expanded to a multi-instrument portfolio</a> spanning equities, bonds, and gold.</p>
+</div>
 <p>All results below are from a <strong>10-year out-of-sample backtest</strong> on SPY (S&amp;P 500 ETF), covering 2016 to 2026. The model was trained exclusively on data prior to 2016. No information from the test period was used during development, feature selection, or parameter tuning.</p>
 <h2 id="performance-summary">Performance Summary<a class="headerlink" href="#performance-summary" title="Permanent link">&para;</a></h2>
 <table>
@@ -640,6 +709,10 @@
 <p><strong>2017 (low-volatility uptrend):</strong> The model traded aggressively — 64 trades, double the annual average. In a calm, steadily rising market, it correctly identified that conditions favoured frequent trading.</p>
 <p>Trade frequency varies <strong>3.5x</strong> across years (17 to 64 trades). This adaptive behaviour emerges entirely from the model's learned understanding of market conditions. There is no hard-coded regime detection, no volatility switch, no calendar logic. The model simply learns when its predictions are likely to be profitable and acts accordingly.</p>
 <p>This is the kind of result that complexity science would predict: simple rules, applied consistently to rich data, produce intelligent emergent behaviour. It's also the kind of result that's very difficult to achieve by overfitting — a model that has memorised the past doesn't adapt to novel market conditions.</p>
+<hr />
+<h2 id="what-came-next">What Came Next<a class="headerlink" href="#what-came-next" title="Permanent link">&para;</a></h2>
+<p>This model established that a real edge exists. I then explored three strategy variants — changing the labeling geometry and execution rules — to understand the nature of that edge and push it further. The best variant achieves <strong>SR 3.18 with DSR 1.000</strong> over the same test period.</p>
+<p><a class="md-button" href="../strategy-evolution/">Read the strategy evolution</a></p>
 
 
 

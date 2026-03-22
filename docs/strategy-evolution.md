@@ -1,6 +1,9 @@
 # Strategy Evolution
 
-The original model — documented in [Results](results.md) — established that a statistically robust edge exists in SPY daily data. Since then, I've explored three strategy variants to understand the nature of that edge and how far it can be pushed.
+!!! info "Historical Context"
+    This research refined the labeling methodology on S&P 500 data. The best variant was subsequently applied across [four instruments in a diversified portfolio](portfolio.md).
+
+The original model — documented in [S&P 500 Model](results.md) — established that a statistically robust edge exists in SPY daily data. Since then, I've explored three strategy variants to understand the nature of that edge and how far it can be pushed.
 
 All three variants use the same data, feature engineering, and validation framework. They differ only in how training labels are constructed and which signals are executed at test time.
 

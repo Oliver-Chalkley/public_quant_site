@@ -64,6 +64,14 @@ The "if" is doing all the work in that sentence. Most applications of ML to trad
 
 My background in AI testing and evaluation is specifically about catching this failure mode. I know how models overfit, how they exploit data leakage, and how they produce confident predictions from noise. Applying that same scepticism to my own trading models is what separates this approach from the standard backtest-and-hope workflow.
 
+## Multi-Instrument Validation
+
+The methodology described above was initially validated on a single instrument over a decade of out-of-sample data. It has since been applied independently to four instruments across different asset classes — equities, bonds, and commodities.
+
+Each instrument model is trained, validated, and evaluated to the same standard. The fact that the approach produces statistically robust results across fundamentally different asset classes — with different return distributions, volatility regimes, and driving factors — provides additional evidence that the methodology is capturing something real rather than exploiting instrument-specific patterns.
+
+The correlation structure between instruments' trading signals emerges naturally from independent training. No optimisation was performed to minimise cross-instrument correlation — the low correlations are a consequence of genuinely independent models applied to genuinely independent markets.
+
 ## Academic Foundations
 
 This work builds on decades of research in quantitative finance, statistical learning, and econometrics. Key influences include:
